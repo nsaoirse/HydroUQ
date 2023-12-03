@@ -33,31 +33,40 @@ OpenFOAM and OpenSeesPy Meshes at 0.7 s with fluid free surface
    :figclass: align-center
 
 OpenFOAM and OpenSeesPy Meshes at 0.7 s with fluid free surface
+
+
 .. figure:: figures/Capture3.PNG
    :align: center
    :width: 600
    :figclass: align-center
-   OpenFOAM and OpenSeesPy Meshes at 0.7 s with fluid free surface
+
+
+OpenFOAM and OpenSeesPy Meshes at 0.7 s with fluid free surface
 
 OpenFOAM and OpenSeesPy Meshes at 0.9 s with fluid free surface
+
+
 .. figure:: figures/Capture2.PNG
    :align: center
    :width: 600
    :figclass: align-center
+
+
     OpenFOAM and OpenSeesPy Meshes at 0.9 s with fluid free surface
 
 OpenFOAM and OpenSeesPy Meshes at 1.1 s with fluid free surface
+
+
 .. figure:: figures/Capture1.PNG
    :align: center
    :width: 600
    :figclass: align-center
-   OpenFOAM and OpenSeesPy Meshes at 1.1 s with fluid free surface
+
 
 .. figure:: figures/Capture.PNG
    :align: center
    :width: 600
    :figclass: align-center
-    OpenFOAM and OpenSeesPy Meshes at 1.1 s with fluid free surface
 
 OpenFOAM and OpenSeesPy Meshes at 1.1 s with fluid free surface
 
