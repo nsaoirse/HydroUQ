@@ -33,24 +33,25 @@ OpenFOAM and OpenSeesPy Meshes at 0.7 s with fluid free surface
    :figclass: align-center
 
 OpenFOAM and OpenSeesPy Meshes at 0.7 s with fluid free surface
-
 .. figure:: figures/Capture3.PNG
    :align: center
    :width: 600
    :figclass: align-center
-   OpenFOAM and OpenSeesPy Meshes at 0.9 s with fluid free surface
+   OpenFOAM and OpenSeesPy Meshes at 0.7 s with fluid free surface
 
+OpenFOAM and OpenSeesPy Meshes at 0.9 s with fluid free surface
 .. figure:: figures/Capture2.PNG
    :align: center
    :width: 600
    :figclass: align-center
     OpenFOAM and OpenSeesPy Meshes at 0.9 s with fluid free surface
 
+OpenFOAM and OpenSeesPy Meshes at 1.1 s with fluid free surface
 .. figure:: figures/Capture1.PNG
    :align: center
    :width: 600
    :figclass: align-center
-OpenFOAM and OpenSeesPy Meshes at 1.1 s with fluid free surface
+   OpenFOAM and OpenSeesPy Meshes at 1.1 s with fluid free surface
 
 .. figure:: figures/Capture.PNG
    :align: center
@@ -58,35 +59,11 @@ OpenFOAM and OpenSeesPy Meshes at 1.1 s with fluid free surface
    :figclass: align-center
     OpenFOAM and OpenSeesPy Meshes at 1.1 s with fluid free surface
 
-
 OpenFOAM and OpenSeesPy Meshes at 1.1 s with fluid free surface
-
-.. figure:: figures/11SDispW.pdf
-   :align: center
-   :width: 600
-   :figclass: align-center
-    OpenFOAM and OpenSeesPy Meshes at 1.1 s with fluid free surface
-
-
-
 
 OpenFOAM and OpenSeesPy Displacement Over Time for Point of Maximum Lateral Displacement (Top of Left Front Column)
 
-.. figure:: figures/DisplacementTH.pdf
-   :align: center
-   :width: 600
-   :figclass: align-center
-    OpenFOAM and OpenSeesPy Displacement Over Time for Point of Maximum Lateral Displacement (Top of Left Front Column)
-
 
 Streamwise Force Comparison Between Experiment, OpenFOAM CFD, and FOAMySees FSI
-
-.. figure:: figures/ForceTH.pdf
-   :align: center
-   :width: 600
-   :figclass: align-center
-    Streamwise Force Comparison Between Experiment, OpenFOAM CFD, and FOAMySees FSI
-
-
 
 
