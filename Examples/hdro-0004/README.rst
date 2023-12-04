@@ -31,6 +31,16 @@ The k-$\omega$ Shear Stress Transport ($k$-$\omega$ SST) model was utilized for 
    :width: 600
    :figclass: align-center
 
+
+
+Hydrodynamics Comparison and CFD Computational Results for Velocity and Free Surface
+
+
+The simulated results for wave movement, pressure distribution over the specimen, and structural forces were compared against the measured responses to evaluate the accuracy of the model. Fig. \ref{fig:0swave} shows elevation views of the simulated wave at various points of travel down the flume, as well as the end state (fully-extended) of the prescribed motion of the wavemaker as the water moves toward the test specimen.
+
+
+
+
 .. figure:: figures/Capture20.PNG
    :align: center
    :width: 600
@@ -102,54 +112,8 @@ The k-$\omega$ Shear Stress Transport ($k$-$\omega$ SST) model was utilized for 
    :figclass: align-center
 
 
-
-\begin{table}[!h]
-\small 
-\caption{CFD Model Boundary Conditions for All Field Variables}      \label{tab:BC Field Variables}
-  \begin{tabular}{|c||c|c|c|}
-  \hline
-
-Field & Atmosphere & Walls & Wavemaker \\
-\hline
-  \hline
-U & pressureInletOutletVelocity & noSlip & movingWallVelocity \\
-
-  \hline
-p_{rgh} &	totalPressure &	fixedFluxPressure & fixedFluxPressure \\
-\hline
-\nu_t &	calculated & nutkWallFunction & nutkWallFunction \\
-\hline
-k &	inletOutlet & kqRWallFunction & kqRWallFunction \\
-\hline
-\omega & inletOutlet & omegaWallFunction & omegaWallFunction \\ 
-\hline
-\epsilon & inletOutlet & epsilonWallFuction & epsilonWallFuction \\
-\hline
-\alpha & inletOutlet & zeroGradient & zeroGradient \\
-\hline
-pointDisplacement & fixedNormalSlip/fixedValue & fixedNormalSlip/fixedValue & wavemakerMovement \\
-\hline
-  \end{tabular}
-
-\end{table}
-
 The computational domain was comprised of 3.2 million points and 3 million cells, with cell sizes varying from 10 cm$\times$10 cm$\times$10 cm far from the structure to 1.5 cm$\times$1.5 cm$\times$1.5 cm near the structure. CFD model time discretization was initialized with a 1E-4 maximum and 1E-9 minimum time step, with time step size governed by a Courant-Friedrichs-Lewy (CFL) condition of 0.5. Models were run on UW Hyak Klone with 40 processors, with 128G of memory per processor, and took approximately 20 hours to complete. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsubsection{Hydrodynamics Comparison and CFD Computational Results for Velocity and Free Surface}
-
-\begin{figure}[!htb]
-
-\centering
- \includegraphics[width=\linewidth]{ExperimentalTestCases/Figure 11.pdf}
- \centering
- \caption{Side Elevation of OpenFOAM Model at Selected Times}\label{fig:0swave}
-\hfill
-
-\end{figure}
- 
-The simulated results for wave movement, pressure distribution over the specimen, and structural forces were compared against the measured responses to evaluate the accuracy of the model. Fig. \ref{fig:0swave} shows elevation views of the simulated wave at various points of travel down the flume, as well as the end state (fully-extended) of the prescribed motion of the wavemaker as the water moves toward the test specimen.
-
 
 \subsection{Fluid-Structure-Interaction Analysis}
 
