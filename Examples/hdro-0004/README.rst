@@ -15,51 +15,54 @@ Model dimensions can be seen in Fig. \ref{fig:Model Dimensions}. Atmospheric bou
 \indent  In order to replicate the experimental wave motion and measured fluid loads imparted on the structure, the displacement of the paddle during experiments was recorded as a time history. This paddle displacement history was imposed on the wavemaker paddle surface in the OpenFOAM model using the olaFlow boundary condition function wavemakerMovement to specify the mesh motion. More specifically, mesh-morphing wave generation boundary conditions were used to mimic the piston-driven paddle wavemaker at the Hinsdale Wave Research Lab by prescribing the variable 'pointDisplacement' within OpenFOAM. All boundary conditions applied in the models are listed in Table \ref{tab:BC Field Variables}. For further information and a comprehensive evaluation of OpenFOAM boundary conditions used in Large Wave Flume Models such as those utilized in this study, see Winter (2020). 
 
 
-
+Image
 .. figure:: figures/Capture23.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
+   caption
+Image
 .. figure:: figures/Capture22.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
+   caption
+Image
 .. figure:: figures/Capture21.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
-
-
-
-
+   caption
+Image
 .. figure:: figures/Capture20.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
+   caption
+Image
 .. figure:: figures/Capture19.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
+   caption
+Image
 .. figure:: figures/Capture18.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
+   caption
+Image
 .. figure:: figures/Capture17.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
+   caption
+Image
 .. figure:: figures/Capture16.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
+   caption
 
 Hydrodynamics Comparison and CFD Computational Results for Velocity and Free Surface
 The simulated results for wave movement, pressure distribution over the specimen, and structural forces were compared against the measured responses to evaluate the accuracy of the model. Fig. \ref{fig:0swave} shows elevation views of the simulated wave at various points of travel down the flume, as well as the end state (fully-extended) of the prescribed motion of the wavemaker as the water moves toward the test specimen.
@@ -67,7 +70,6 @@ The computational domain was comprised of 3.2 million points and 3 million cells
 
 
 OpenFOAM Calculated Free Surface Values 
-
 .. figure:: figures/WaveGauges.png
    :align: center
    :width: 600
@@ -76,36 +78,40 @@ OpenFOAM Calculated Free Surface Values
 
 
 
-
+Image
 .. figure:: figures/Capture15.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
+   caption
+Image
 .. figure:: figures/Capture14.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
+   caption
+Image
 .. figure:: figures/Capture13.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
+   caption
+Image
 .. figure:: figures/Capture12.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
+   caption
+Image
 .. figure:: figures/Capture11.PNG
    :align: center
    :width: 600
    :figclass: align-center
+   caption
+Image
 
 
-
-
-\subsubsection{OpenSees Model Details}
+OpenSees Model Details
 
 A simplified OpenSees model was built of the concrete core wall specimen, along with the concrete-filled-tubes which supported the core wall. An elastic material with a modulus of elasticity of 5e9 Pascals, density of 2400 $kg/m^3$, and a Poisson ratio of 0.25 was utilized to model the concrete. An 'ElasticMembranePlateSection' with 6 inch thickness was used with 'ShellMITC4' elements roughly 10 cm x 10 cm in size comprising the core wall specimen geometry at the wall and slab centerlines. 
 Uni-axial material properties for structural steel ('Steel02' model, with a yield stress of 344.75 MPa, initial elastic tangent of 200 GPa, strain-hardening ratio of 0.1, and isotropic hardening parameters of a1, a2, and a3 of 18.0, 0.925, and 0.15, respectively) and concrete ('Concrete02' model, with concrete compressive strength at 28 days of -49.64 MPa, concrete strain at maximum strength of -0.00326, concrete crushing strength of -9.93 MPa, concrete strain at crushing strength of -0.01631, ratio between unloading slope and initial slope of 0.1, tensile strength of 4.39 MPa, and tension softening stiffness of 2 GPa) respectively were chosen for modelling materials of the CFT tubes within OpenSeePy. Fiber sections with elastic uniaxial materials and 64 fibers each were utilized to represent the composite sections of the columns, which were standard 10.16 cm (4 in) steel pipes with 1.27 cm (1/2 in) thick walls filled with concrete. EqualDOF commands were utilized for connection of structural elements of different formulations within OpenSeesPy. The structure was fixed at its base.
@@ -113,34 +119,35 @@ Uni-axial material properties for structural steel ('Steel02' model, with a yiel
 The model was given Rayleigh damping in OpenSeesPy with a value of 7.5 \% from the frequency of the first structural mode ($f_1$) to five times that frequency (5$f_1$) with Rayleigh mass coefficients of $\alpha_{mass} = 0.0$ and Rayleigh stiffness coefficients of $\beta_{tangent} = 0.0, \beta_{initial} = \frac{\zeta*5f_1 - \zeta*f_1}{\pi*(5f_1^2 - f_1^2)},$ and $\beta_{committed}=0.0$.   \\
 
 
-
+   caption
+Image
 .. figure:: figures/Capture9.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
+   caption
+Image
 .. figure:: figures/Capture8.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
+   caption
+Image
 .. figure:: figures/Capture7.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
+   caption
+Image
 .. figure:: figures/Capture6.PNG
    :align: center
    :width: 600
    :figclass: align-center
-
+   caption
+Image
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Fluid-Structure-Interaction Analysis}
-
-The case was run first to completion with a CFD-only analysis. To save time, the fields from this analysis were mapped to a FOAMySees FSI model utilizing OpenFOAM's 'mapFields' utility at T=8.75 seconds, shortly after the wave had crested at the flume bathymetry and before it had reached the specimen.
-
-
+Fluid-Structure-Interaction Analysis
 
 Forces and moments from the CFD simulations slightly vary from those obtained from the experiments, but these force trends and magnitudes fall within 10 percent of the measured loads which are unaffected by slight asymmetries in the test frame's stiffness. These differences are still to be investigated in future research, however the agreement between forces obtained from experiments and numerical models is assumed to be within acceptable ranges for justifying further refinements to the modelling methodologies and advancement of the techniques implemented for tsunami-resilience-engineering purposes. Streamwise forces, overturn moment, and vertical forces from the experiments, CFD models, and FSI models are shown in Figure \ref{fig:OSUX}, Figure \ref{fig:OSUMY}, and Figure \ref{fig:OSUZ}, respectively. The simulation was run first with an implicit coupling scheme, with a coupling relative residual tolerance of 5e-3 and a coupling timestep of 5e-4s. The work input into the OpenSees model for both the implicit and explicit simulation are shown in Figure \ref{fig:OSUWorkIn}. The explicit simulation experiences an instability around the time of maximum force, resulting in large spikes in the resolved forces and large amounts of generated spurious work. The implicit simulation ensures that this work remains bounded through relative convergence of the data within each coupling timestep.
 Errors for work transfer across interface with respect to work transfer rate is shown in Figure \ref{fig:OSUWorkRate}. It is expected that with a reduced timestep the work transfer errors which arise from the large coupling timestep size would be minimized - however, reduction of the timestep will increase the probability that the explicitly-coupled simulation will diverge due to the inherent added-mass instabilities of partitioned-explicit coupling. 
