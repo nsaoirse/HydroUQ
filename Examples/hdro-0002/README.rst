@@ -12,6 +12,17 @@ An experimental campaign of two specimens tested at the Oregon State Univeristy 
    :figclass: align-center
 
 
+.. figure:: figures/Picture3.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+   
+.. figure:: figures/Picture4.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+
 
 Three Dimensional Elevated Structure Under Turbulent Breaking Solitary Wave Impingement with Real Structural Sections and Materials
 
@@ -29,17 +40,6 @@ The concrete-filled-tubes were modelled in the same manner as those in the previ
    :figclass: align-center
 
 .. figure:: figures/Picture10.png
-   :align: center
-   :width: 600
-   :figclass: align-center
-
-
-.. figure:: figures/Picture3.png
-   :align: center
-   :width: 600
-   :figclass: align-center
-   
-.. figure:: figures/Picture4.png
    :align: center
    :width: 600
    :figclass: align-center
