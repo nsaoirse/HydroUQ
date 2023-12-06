@@ -21,6 +21,17 @@ OpenSees Model Description
 The structure was 1.016	m by 1.016 m in plan from column center to column center, comprised of steel frame elements, steel gusset plates, and concrete filled steel tubes. HSS2x2x1/8 elements were framed horizontally between columns with their center-line at heights of 1.3208 m, 1.8288 m, and 2.3368 m. HSS1.5x1.5x1/4 elements were utilized for chevron bracing from  1.3208 m to 1.8288 m along all four sides of the structure. Panels spanned between HSS2x2 elements forming diaphragms within the structural plan footprint. For exact material properties of the experimental specimen and exact structural dimensions, see \cite{SULLIVAN:2021}. 
 The concrete-filled-tubes were modelled in the same manner as those in the previous section, as the same concrete-filled-tubes were utilized for both specimens which were tested. Elastic beam sections were utilized for the HSS components of the frame. Elastic MITC4 shell elements were utilized for the modelling of the panels spanning across each story, which were given a thickness of 12.7 mm (1/2 in) and material properties of elastic steel. The model was again given Rayleigh damping in OpenSeesPy with a value of 7.5 \% from the frequency of the first structural mode ($f_1$) to five times that frequency (5$f_1$).   \\
 
+
+.. figure:: figures/Picture.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Picture10.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+
 .. figure:: figures/Capture5.PNG
    :align: center
    :width: 600
@@ -65,15 +76,6 @@ Mesh motion of OpenSeesPy, the FOAMySees displacement branch mesh, and OpenFOAM 
    :width: 600
    :figclass: align-center
 
-.. figure:: figures/Picture.png
-   :align: center
-   :width: 600
-   :figclass: align-center
-
-.. figure:: figures/Picture10.png
-   :align: center
-   :width: 600
-   :figclass: align-center
 
 
 .. figure:: figures/Picture1.png
