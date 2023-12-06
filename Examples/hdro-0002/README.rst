@@ -32,6 +32,19 @@ The concrete-filled-tubes were modelled in the same manner as those in the previ
    :width: 600
    :figclass: align-center
 
+
+.. figure:: figures/Picture3.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+   
+.. figure:: figures/Picture4.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+
+
 .. figure:: figures/Capture5.PNG
    :align: center
    :width: 600
@@ -84,17 +97,6 @@ Mesh motion of OpenSeesPy, the FOAMySees displacement branch mesh, and OpenFOAM 
    :figclass: align-center
    
 .. figure:: figures/Picture2.png
-   :align: center
-   :width: 600
-   :figclass: align-center
-
-
-.. figure:: figures/Picture3.png
-   :align: center
-   :width: 600
-   :figclass: align-center
-   
-.. figure:: figures/Picture4.png
    :align: center
    :width: 600
    :figclass: align-center
