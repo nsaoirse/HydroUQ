@@ -8,6 +8,15 @@ Coupled Digital Twin Example - Oregon State University Large Wave Flume Coupled 
 
 
 An experimental campaign of two specimens tested at the Oregon State Univeristy O.H Hinsdale Wave Research Laboratory Large Wave Flume was modelled. Experimental work was conducted by a collaborative team from the University of Washington and Oregon State University led by master’s students Christopher Pyke and Kenneth Sullivan. CFD simulations and computational analysis were completed with the assistance of Chris Pyke, Kenneth Sullivan, Dakota Mascarenas, Andrew O. Winter, Ph.D, Dawn E. Lehman, Ph.D, Michael R. Motley, Ph.D., Pedro Arduino, Ph.D, and Charles W. Roeder, Ph.D. The faculty and staff at O.H. Hinsdale Wave Research Laboratory also contributed to this project and assisted with experimentation and data curation. As the experimental setup and results have been published previously in Lewis et. al, 2022 and are available in Pyke, 2020 and Sullivan, 2021, information pertaining to motivation, background, and irrelevant testing parameters are omitted here for brevity and clarity. Results from the strongly-coupled FSI analyses were compared to experimental results and analogous CFD analyses (identical mesh) with a rigid boundary representing each structure.
+
+Chris Pyke's Masters Thesis (Details about experimentation)
+https://digital.lib.washington.edu/researchworks/handle/1773/45914
+
+JSE Paper on CFD Analyses (Details about OpenFOAM and Hydrodynamics Comparisons)
+Integrated Study of Existing Tsunami Design Standards
+Nicolette S. Lewis, Dawn E. Lehman, A.M.ASCE, Michael R. Motley, A.M.ASCE, Pedro Arduino, M.ASCE, Charles W. Roeder, M.ASCE, Christopher N. Pyke, and Kenneth P. Sullivan
+DOI: 10.1061/(ASCE)ST.1943-541X.0003506
+
 Numerical Investigation With Computational Fluid Dynamics
 
 The following section investigates the efficacy of CFD in simulating wave-structure interaction and hydrodynamics from paddle-generated breaking solitary waves and resolving experimental forces for integrated study of fluid behavior using a model at 1:1 scale with the experiments.
