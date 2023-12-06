@@ -58,12 +58,6 @@ Mesh motion of OpenSeesPy, the FOAMySees displacement branch mesh, and OpenFOAM 
    :width: 600
    :figclass: align-center
 
-OpenFOAM and OpenSeesPy Meshes at 1.1 s with fluid free surface
-
-OpenFOAM and OpenSeesPy Displacement Over Time for Point of Maximum Lateral Displacement (Top of Left Front Column)
-
-
-Streamwise Force Comparison Between Experiment, OpenFOAM CFD, and FOAMySees FSI
 
 
 .. figure:: figures/Picture1.png
