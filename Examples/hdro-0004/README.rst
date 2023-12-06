@@ -35,6 +35,13 @@ Forces and moments from the CFD simulations slightly vary from those obtained fr
 Errors for work transfer across interface with respect to work transfer rate is shown in Figure \ref{fig:OSUWorkRate}. It is expected that with a reduced timestep the work transfer errors which arise from the large coupling timestep size would be minimized - however, reduction of the timestep will increase the probability that the explicitly-coupled simulation will diverge due to the inherent added-mass instabilities of partitioned-explicit coupling. 
 
 
+.. figure:: figures/Capture5.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+
+Displacements, Forces, and Impulses
 
 
 
