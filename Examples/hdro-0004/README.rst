@@ -1,4 +1,4 @@
-.. _hydro-0004:
+.. _hydro-0002:
 
 Coupled Digital Twin Example - Oregon State University Large Wave Flume Coupled Simulation (Concrete Core Wall Structure, Breaking Wave)
 
@@ -16,8 +16,8 @@ In order to replicate the experimental wave motion and measured fluid loads impa
 
 
 Hydrodynamics Comparison and CFD Computational Results for Velocity and Free Surface
-The simulated results for wave movement, pressure distribution over the specimen, and structural forces were compared against the measured responses to evaluate the accuracy of the model. Fig. \ref{fig:0swave} shows elevation views of the simulated wave at various points of travel down the flume, as well as the end state (fully-extended) of the prescribed motion of the wavemaker as the water moves toward the test specimen.
-The computational domain was comprised of 3.2 million points and 3 million cells, with cell sizes varying from 10 cm$\times$10 cm$\times$10 cm far from the structure to 1.5 cm$\times$1.5 cm$\times$1.5 cm near the structure. CFD model time discretization was initialized with a 1E-4 maximum and 1E-9 minimum time step, with time step size governed by a Courant-Friedrichs-Lewy (CFL) condition of 0.5. Models were run on UW Hyak Klone with 40 processors, with 128G of memory per processor, and took approximately 20 hours to complete. 
+The simulated results for wave movement, pressure distribution over the specimen, and structural forces were compared against the measured responses to evaluate the accuracy of the model. Fig. ____ shows elevation views of the simulated wave at various points of travel down the flume, as well as the end state (fully-extended) of the prescribed motion of the wavemaker as the water moves toward the test specimen.
+The computational domain was comprised of 3.2 million points and 3 million cells, with cell sizes varying from 10 cmX10 cmX$10 cm far from the structure to 1.5 cmX1.5 cmX1.5 cm near the structure. CFD model time discretization was initialized with a 1E-4 maximum and 1E-9 minimum time step, with time step size governed by a Courant-Friedrichs-Lewy (CFL) condition of 0.5. Models were run on UW Hyak Klone with 40 processors, with 128G of memory per processor, and took approximately 20 hours to complete. 
 
 
 OpenSees Model Details
@@ -25,7 +25,7 @@ OpenSees Model Details
 A simplified OpenSees model was built of the concrete core wall specimen, along with the concrete-filled-tubes which supported the core wall. An elastic material with a modulus of elasticity of 5e9 Pascals, density of 2400 $kg/m^3$, and a Poisson ratio of 0.25 was utilized to model the concrete. An 'ElasticMembranePlateSection' with 6 inch thickness was used with 'ShellMITC4' elements roughly 10 cm x 10 cm in size comprising the core wall specimen geometry at the wall and slab centerlines. 
 Uni-axial material properties for structural steel ('Steel02' model, with a yield stress of 344.75 MPa, initial elastic tangent of 200 GPa, strain-hardening ratio of 0.1, and isotropic hardening parameters of a1, a2, and a3 of 18.0, 0.925, and 0.15, respectively) and concrete ('Concrete02' model, with concrete compressive strength at 28 days of -49.64 MPa, concrete strain at maximum strength of -0.00326, concrete crushing strength of -9.93 MPa, concrete strain at crushing strength of -0.01631, ratio between unloading slope and initial slope of 0.1, tensile strength of 4.39 MPa, and tension softening stiffness of 2 GPa) respectively were chosen for modelling materials of the CFT tubes within OpenSeePy. Fiber sections with elastic uniaxial materials and 64 fibers each were utilized to represent the composite sections of the columns, which were standard 10.16 cm (4 in) steel pipes with 1.27 cm (1/2 in) thick walls filled with concrete. EqualDOF commands were utilized for connection of structural elements of different formulations within OpenSeesPy. The structure was fixed at its base.
 
-The model was given Rayleigh damping in OpenSeesPy with a value of 7.5 \% from the frequency of the first structural mode ($f_1$) to five times that frequency (5$f_1$) with Rayleigh mass coefficients of $\alpha_{mass} = 0.0$ and Rayleigh stiffness coefficients of $\beta_{tangent} = 0.0, \beta_{initial} = \frac{\zeta*5f_1 - \zeta*f_1}{\pi*(5f_1^2 - f_1^2)},$ and $\beta_{committed}=0.0$.   \\
+The model was given Rayleigh damping in OpenSeesPy with a value of 7.5% from the frequency of the first structural mode to five times that frequency.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
