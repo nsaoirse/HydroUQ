@@ -59,6 +59,21 @@ Mesh motion of OpenSeesPy, the FOAMySees displacement branch mesh, and OpenFOAM 
    :width: 600
    :figclass: align-center
 
+.. figure:: figures/Picture.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Picture10.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Picture11.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+
 
 
 .. figure:: figures/Picture1.png
