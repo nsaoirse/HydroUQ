@@ -25,8 +25,7 @@ Displacements, Forces, and Impulses
 
 Mesh motion of OpenSeesPy, the FOAMySees displacement branch mesh, and OpenFOAM surface patches along with fluid free surface (isosurface at \alpha= 0.5) overlaid for selected times of the simulation are shown in Figures \ref{fig:MeshMotionComparison1} through \ref{fig:MeshMotionComparison3}. In Figure \ref{fig:MeshMotionComparison4}, a time history of the displacement of the top left corner on the upstream face of the structure in OpenSeesPy and its associated location in OpenFOAM are plotted alongside each other to demonstrate proper transfer of displacement during the simulation. To demonstrate proper transfer of force between coupled models, the forces applied to the branch nodes within FOAMySees were output and summed for comparison with the force calculated within OpenFOAM via functionObjects. The streamwise force time histories for both OpenFOAM and FOAMySees are shown along with experimentally measured forces from Sullivan (2021) for the duration of wave impingement in Figure \ref{fig: ForceComparisonFOAMyVsExperiment}. This analysis and experiment will be investigated with an implicitly-coupled model utilizing incremental time stepping within the OpenFOAM model in future work. 
 
-.. raw:: html
-    <video controls src="figures/Media1.mp4" width="620" height="620"/>
+.. video:: figures/Media1.mp4
 
 .. figure:: figures/Capture4.PNG
    :align: center
