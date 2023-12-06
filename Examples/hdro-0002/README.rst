@@ -76,3 +76,53 @@ OpenFOAM and OpenSeesPy Displacement Over Time for Point of Maximum Lateral Disp
 Streamwise Force Comparison Between Experiment, OpenFOAM CFD, and FOAMySees FSI
 
 
+
+.. figure:: figures/Picture.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Picture1.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+   
+.. figure:: figures/Picture2.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+
+.. figure:: figures/Picture3.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+   
+.. figure:: figures/Picture4.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+
+.. figure:: figures/Picture5.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+   
+.. figure:: figures/Picture6.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+
+.. figure:: figures/Picture7.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+   
+.. figure:: figures/Picture8.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+
