@@ -35,6 +35,94 @@ Fluid-Structure-Interaction Analysis
 Forces and moments from the CFD simulations slightly vary from those obtained from the experiments, but these force trends and magnitudes fall within 10 percent of the measured loads which are unaffected by slight asymmetries in the test frame's stiffness. These differences are still to be investigated in future research, however the agreement between forces obtained from experiments and numerical models is assumed to be within acceptable ranges for justifying further refinements to the modelling methodologies and advancement of the techniques implemented for tsunami-resilience-engineering purposes. Streamwise forces, overturn moment, and vertical forces from the experiments, CFD models, and FSI models are shown in Figure , Figure , and Figure , respectively. The simulation was run first with an implicit coupling scheme, with a coupling relative residual tolerance of 5e-3 and a coupling timestep of 5e-4s. The work input into the OpenSees model for both the implicit and explicit simulation are shown in Figure  . The explicit simulation experiences an instability around the time of maximum force, resulting in large spikes in the resolved forces and large amounts of generated spurious work. The implicit simulation ensures that this work remains bounded through relative convergence of the data within each coupling timestep.
 Errors for work transfer across interface with respect to work transfer rate is shown in Figure . It is expected that with a reduced timestep the work transfer errors which arise from the large coupling timestep size would be minimized - however, reduction of the timestep will increase the probability that the explicitly-coupled simulation will diverge due to the inherent added-mass instabilities of partitioned-explicit coupling. 
 
+.. figure:: figures/Capture23.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Capture22.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+
+.. figure:: figures/Capture21.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Capture20.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Capture19.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Capture18.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+   
+
+.. figure:: figures/Capture17.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Capture16.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Capture15.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Capture14.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+   
+
+.. figure:: figures/Capture13.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Capture12.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Capture11.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Capture10.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+   
+
+.. figure:: figures/Capture9.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Capture8.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+.. figure:: figures/Capture7.PNG
+   :align: center
+   :width: 600
+   :figclass: align-center
 
 .. figure:: figures/Capture6.PNG
    :align: center
