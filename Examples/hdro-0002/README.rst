@@ -6,6 +6,12 @@ Coupled Digital Twin Example - Oregon State University Large Wave Flume Coupled 
 
 An experimental campaign of two specimens tested at the Oregon State Univeristy O.H Hinsdale Wave Research Laboratory Large Wave Flume was modelled. Experimental work was conducted by a collaborative team from the University of Washington and Oregon State University led by master’s students Christopher Pyke and Kenneth Sullivan. CFD simulations and computational analysis were completed with the assistance of Chris Pyke, Kenneth Sullivan, Dakota Mascarenas, Andrew O. Winter, Ph.D, Dawn E. Lehman, Ph.D, Michael R. Motley, Ph.D., Pedro Arduino, Ph.D, and Charles W. Roeder, Ph.D. The faculty and staff at O.H. Hinsdale Wave Research Laboratory also contributed to this project and assisted with experimentation and data curation. As the experimental setup and results have been published previously in Lewis et. al, 2022 and are available in Pyke, 2020 and Sullivan, 2021, information pertaining to motivation, background, and irrelevant testing parameters are omitted here for brevity and clarity. Results from the strongly-coupled FSI analyses were compared to experimental results and analogous CFD analyses (identical mesh) with a rigid boundary representing each structure. 
 
+.. figure:: figures/Picture11.png
+   :align: center
+   :width: 600
+   :figclass: align-center
+
+
 
 Three Dimensional Elevated Structure Under Turbulent Breaking Solitary Wave Impingement with Real Structural Sections and Materials
 
@@ -68,12 +74,6 @@ Mesh motion of OpenSeesPy, the FOAMySees displacement branch mesh, and OpenFOAM 
    :align: center
    :width: 600
    :figclass: align-center
-
-.. figure:: figures/Picture11.png
-   :align: center
-   :width: 600
-   :figclass: align-center
-
 
 
 .. figure:: figures/Picture1.png
